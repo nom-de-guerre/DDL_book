@@ -106,7 +106,11 @@ def ANN_Factory (topology):
 
 def ForwardPass (ANN, x):
     
-    z = np.array ([[x]])
+    if (isinstance (x, float)):
+        z = np.array ([[x]])
+    else:
+        z = x
+
     last = 1
 
     responses = ANN["z"]
