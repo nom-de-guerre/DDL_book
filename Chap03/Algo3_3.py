@@ -111,8 +111,6 @@ def ForwardPass (ANN, x):
     else:
         z = x
 
-    last = 1
-
     responses = ANN["z"]
     
     for idx, K in enumerate (zip (ANN["Weights"], responses)):
@@ -147,7 +145,7 @@ def ComputeLoss (ANN, x, y):
     loss = 0.5 * dz[0]*dz[0]
 
     dL = ANN["dL"]
-    depth = -len (ANN["topology"])
+    # depth = -len (ANN["topology"])
     z = [np.array ([[x]])] + ANN["z"]
 
     for idx, K in enumerate (zip (reversed (ANN["dL"]), reversed (ANN["Weights"]), reversed (ANN["z"]))):
