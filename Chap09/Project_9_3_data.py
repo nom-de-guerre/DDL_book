@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# /*
-# 
 # Copyright (c) 2023, Douglas Santry
 # All rights reserved.
 # 
@@ -26,8 +24,12 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 # 
-# */
+
+# This file is used to build a .py file for use in the ClassifyNews.ipynb notebook.  
 # 
+# The dataset is from https://www.kaggle.com/c/learn-ai-bbc
+# 
+# This notebook brings data into memory and labels it.  It creates a dataset called W.  Bringing it into memory makes it easier to see what the data looks like and play with the tokenizer.
 
 # In[1]:
 
@@ -45,7 +47,7 @@ from datasets import Dataset, DatasetDict
 # In[2]:
 
 
-DataLocation = "/Users/dsantry/Scratch/Data/BBC/bbc"
+DataLocation = "root directory goes here"
 
 
 # In[3]:
