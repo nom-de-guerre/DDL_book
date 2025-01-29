@@ -26,3 +26,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 The material demonstrates the principles of the alogrithms presented in the book; it is provided exclusively for pedagogical purposes.  The code is not, however, suitable for commerical use.  RANT is the performant implementation (https://github.com/nom-de-guerre/RANT).
 
+
+
+![DDL Thumbnail](https://github.com/user-attachments/assets/5824ccbf-5ef2-4ae0-aa58-aefca6a0ff39)
+
